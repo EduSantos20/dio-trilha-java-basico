@@ -8,10 +8,10 @@ class Livro implements Comparable<Livro> {
   private int ano;
 
   // Construtor
-  public Livro(String ti, String au, int an) {
-    this.titulo = ti;
-    this.autor = au;
-    this.ano = an;
+  public Livro(String titulo, String autor, int ano) {
+    this.titulo = titulo;
+    this.autor = autor;
+    this.ano = ano;
   }
 
   // Usado para ordenar livros por ano

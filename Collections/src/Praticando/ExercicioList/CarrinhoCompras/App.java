@@ -1,4 +1,4 @@
-package Praticando.CarrinhoCompras;
+package Praticando.ExercicioList.CarrinhoCompras;
 
 public class App {
   public static void main(String[] args) {
