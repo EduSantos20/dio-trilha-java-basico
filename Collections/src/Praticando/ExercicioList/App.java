@@ -7,9 +7,10 @@ public class App {
     System.out.println("O numero total de tarefas é: " + listaTarefa.numeroTotalTarefas());
 
     listaTarefa.adicionarTarefa("Estudar hoje a tarde1!");
-    listaTarefa.adicionarTarefa("Estudar hoje a tarde1!");
     listaTarefa.adicionarTarefa("Estudar hoje a tarde2!");
-    listaTarefa.removerTarefa("Estudar hoje a tarde1!");
+    listaTarefa.adicionarTarefa("Estudar hoje a tarde3!");
+
+    listaTarefa.removerTarefa("Estudar hoje a tarde3!");
 
     System.out.println("O numero total de tarefas é: " + listaTarefa.numeroTotalTarefas());
 

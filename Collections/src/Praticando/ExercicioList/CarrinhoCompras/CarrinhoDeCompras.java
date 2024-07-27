@@ -1,6 +1,7 @@
 package Praticando.ExercicioList.CarrinhoCompras;
 
 import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.List;
 
 public class CarrinhoDeCompras {

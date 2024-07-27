@@ -1,16 +1,10 @@
 package Banco;
 
-import java.util.ArrayList;
 import java.util.List;
-
 public class BancoItau {
   private String nome;
   private List<Conta> contas;
 
-  public BancoItau() {
-    this.contas = new ArrayList<>();
-  }
-  
   public List<Conta> getContas() {
     return contas;
   }
