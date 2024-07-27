@@ -1,11 +1,11 @@
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class GenericsExemploList {
-  @SuppressWarnings("unchecked")
+  @SuppressWarnings({ "unchecked", "rawtypes" })
   public static void main(String[] args) {
     // Exemplo sem Generics
-    @SuppressWarnings("rawtypes")
     List listaSemGenerics = new ArrayList<>();
     listaSemGenerics.add("Elemento 1");
     listaSemGenerics.add(10); //permite adicionar qualquer tipo de objeto
